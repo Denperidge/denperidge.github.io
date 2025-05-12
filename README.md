@@ -12,10 +12,15 @@ yarn build  # Build static to dist/
 yarn dev  # Run a dev server on localhost:8080
 ```
 
+### Webm to gif
+This requires gifski to be installed.
+```sh
+gifski -W 850 --motion-quality 10 --quality 20 -o project.gif project.webm
+```
+
 ## Notice
 For links towards projects or resources used in this repository, open [src/credit.md](src/credit.md), or visit [denperidge.com/credit](https://denperidge.com/credit/).
 
 
-gifski -o Beaumot.gif -W 850 filename
 ## License
 The code in this project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more info.
